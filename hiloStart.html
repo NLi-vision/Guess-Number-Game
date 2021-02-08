@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- 
+	Author: Ning Li
+	Date: Nov 07, 2020
+	Description: This HTML file used for client-side name input validation,
+				 name can't be empty.
+-->
+
+<html>
+    <head>
+        <title>Hi-Lo Game Start</title>
+        <SCRIPT type="text/javascript">			
+
+			// Function: validateInputs()
+			// Purpose: To make sure the input is not blank
+			// Parameters: None
+			// Return: shouldSubmit
+			
+			function validateInputs()
+			{				
+				var shouldSubmit=false;
+				var name=document.getElementById("namePrompt").value;
+				nameError.innerHTML = "";
+				// check that the person's name is not blank  
+				if ((name.trim()).length == 0)
+				{
+					// error message / feedback
+					nameError.innerHTML = "Your name <b>cannot</b> be BLANK.";					
+				}
+				else //if the name is not blank
+				{
+					shouldSubmit = true;
+				}
+				return shouldSubmit;
+			}
+
+		</script>
+	</head>
+	<body style="background-color:LightGray;">
+	<form name="Form1" action="maxNum.asp" method="POST" onsubmit="return validateInputs();">
+    <H2>Hi-Lo Game</H2>
+	<table id="inputName">
+	    <tr>
+			<td>Please enter your name?&nbsp;&nbsp;</td>
+			<td><input id="namePrompt" name="namePrompt" type="text"/>&nbsp;&nbsp;</td>
+			<td><div id="nameError" style="color:red;"></div></td>
+	    </tr>		
+	    <tr>
+			<td></td>
+	        <td><input type="submit" id="nameValid" value="Submit"></td> 
+        </tr>	
+	</table>
+	</form>
+	</body>
+</html>
