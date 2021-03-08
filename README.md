@@ -9,6 +9,7 @@
 ## 4. At this point in the application, the maximum guess number prompt should be hidden as you enter the main runtime (guessing) UI of the application
 ## 5. The following must be components of the main runtime UI:
   a. A prompt asking the user (by name) to guess a number. This prompt must consist of a textbox to allow the user to enter a new guess at the random number. [NOTE: Do not use the JavaScript prompt() function]
+  
   b. A button to submit the guess labeled as “Make this Guess”
   
   c. A message that informs the user about their allowable guessing range
