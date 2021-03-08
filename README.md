@@ -20,6 +20,7 @@
     * For example, let’s say the allowable guessing range is between 6 and 10 and the user enters the value 44 or -10 … since they are number values, it’s allowed – tell them it is outside of the allowable range and simply remind them of the guessing range
   e. During the game, if the user enters anything but a number, I expect your Hi-Lo game to remind the user that they need to enter a number – so display some kind of error message to that effect as well as the allowable guessing range message
   f. When the user’s guess is correct, change the background colour of the page and show a message on the screen saying “You Win!! You guessed the number!!”
+  
     * There should be no remnants of the main guessing prompt and/or messages
     * At this point, show a “Play Again” button and reset your page to do it again
     * Only this time you don’t need to prompt the user for their name – but you should prompt them for a new maximum number.
