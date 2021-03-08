@@ -1,12 +1,12 @@
 # Guess-Number-Game
-##1.When the page initially loads, the application should present a user prompt asking for the player’s name. This prompt should be accompanied by a text box.
+## 1.When the page initially loads, the application should present a user prompt asking for the player’s name. This prompt should be accompanied by a text box.
   a. The player’s name is mandatory and therefore cannot be blank – it can contain any characters but must not be blank.
-##2. After the name is entered, the application shall hide the name prompt and will now prompt the user (by name) to enter the maximum guess number
+## 2. After the name is entered, the application shall hide the name prompt and will now prompt the user (by name) to enter the maximum guess number
   a. The application will only allow the user to enter an integer number and will ensure the value greater than 1.
   b. If any input other than this is given, then an informative error message must be presented
-##3. Your Hi-Lo application must create a random integer between 1 and the maximum guess number
-##4. At this point in the application, the maximum guess number prompt should be hidden as you enter the main runtime (guessing) UI of the application
-##5. The following must be components of the main runtime UI:
+## 3. Your Hi-Lo application must create a random integer between 1 and the maximum guess number
+## 4. At this point in the application, the maximum guess number prompt should be hidden as you enter the main runtime (guessing) UI of the application
+## 5. The following must be components of the main runtime UI:
   a. A prompt asking the user (by name) to guess a number. This prompt must consist of a textbox to allow the user to enter a new guess at the random number. [NOTE: Do not use the JavaScript prompt() function]
   b. A button to submit the guess labeled as “Make this Guess”
   c. A message that informs the user about their allowable guessing range
@@ -20,7 +20,7 @@
     • There should be no remnants of the main guessing prompt and/or messages
     • At this point, show a “Play Again” button and reset your page to do it again
     • Only this time you don’t need to prompt the user for their name – but you should prompt them for a new maximum number.
-##6. Make sure that all data entered is validated for proper data type and in some cases proper data ranges/values
+## 6. Make sure that all data entered is validated for proper data type and in some cases proper data ranges/values
   a. Remember that the objective of the code is to create a workable Hi-Lo game
   b. Also remember that giving the user timely feedback is a mandated usability factor
-##7. The application should also only ever have one user prompt visible on the screen
+## 7. The application should also only ever have one user prompt visible on the screen
